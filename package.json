@@ -3,6 +3,9 @@
   "version": "2.0.32",
   "description": "Advanced Social Media Profiles Finder and String Analysis Tool",
   "main": "app.js",
+  "engines": {
+    "node": ">=20.18.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js --gui"
@@ -22,7 +25,6 @@
     "https-proxy-agent": "5.0.1",
     "ixora": "1.0.10",
     "langs": "2.0.0",
-    "loadash": "^1.0.0",
     "lodash": ">=4.17.21",
     "most-common-words-by-language": "3.0.10",
     "n": "^8.2.0",
